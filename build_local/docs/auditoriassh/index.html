@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Auditoria SSH">
+
+        <meta property="og:site_name" content="Projecte Jamal"/>
+        <meta property="og:title" content="Auditoria SSH | Projecte Jamal"/>
+        <meta property="og:description" content="Auditoria SSH"/>
+        <meta property="og:url" content="/docs/auditoriassh"/>
+        <meta property="og:image" content="/assets/img/logo.png"/>
+        <meta property="og:type" content="website"/>
+
+        <meta name="twitter:image:alt" content="Projecte Jamal">
+        <meta name="twitter:card" content="summary_large_image">
+
+        
+        <title>Projecte Jamal | Auditoria SSH</title>
+
+        <link rel="home" href="">
+        <link rel="icon" href="/favicon.ico">
+
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=ddbf9e49f22fc27a1dac">
+
+            </head>
+
+    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
+        <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
+            <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
+                <div class="flex items-center">
+                    <a href="/" title="Projecte Jamal home" class="inline-flex items-center">
+                        <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="Projecte Jamal logo" />
+
+                        <h1 class="text-lg md:text-2xl text-blue-900 font-semibold hover:text-blue-600 my-0 pr-4">Projecte Jamal</h1>
+                    </a>
+                </div>
+
+                <div class="flex flex-1 justify-end items-center text-right md:pl-10">
+                                    </div>
+            </div>
+
+                <button class="flex justify-center items-center bg-blue-500 border border-blue-500 h-10 mr-4 px-5 rounded-full lg:hidden focus:outline-none"
+    onclick="navMenu.toggle()"
+>
+    <svg id="js-nav-menu-show" xmlns="http://www.w3.org/2000/svg"
+        class="fill-current text-white h-9 w-4" viewBox="0 0 32 32"
+    >
+        <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+    </svg>
+
+    <svg id="js-nav-menu-hide" xmlns="http://www.w3.org/2000/svg"
+        class="hidden fill-current text-white h-9 w-4" viewBox="0 0 36 30"
+    >
+        <polygon points="32.8,4.4 28.6,0.2 18,10.8 7.4,0.2 3.2,4.4 13.8,15 3.2,25.6 7.4,29.8 18,19.2 28.6,29.8 32.8,25.6 22.2,15 "/>
+    </svg>
+</button>
+
+        </header>
+
+        <main role="main" class="w-full flex-auto">
+            <section class="container max-w-8xl mx-auto px-6 md:px-8 py-4">
+    <div class="flex flex-col lg:flex-row">
+        <nav id="js-nav-menu" class="nav-menu hidden lg:block">
+        </nav>
+
+        <div class="DocSearch-content w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
+            <h1>Auditoria SSH</h1>
+
+<h2>Què és SSH-Audit?</h2>
+
+<p><strong><a href="https://github.com/jtesta/ssh-audit">SSH-Audit</a></strong> és una eina per a l'auditoria de configuració de <strong>servidor</strong> i <strong>client</strong> ssh.</p>
+
+<p>Per realitzar auditories SSH hem escollit SSH-Audit ja què, és una eina senzilla, intuitiva però, a la vegada molt potent per extreure tots els resultats que ens interesen.</p>
+
+<h2>Com realitzem una auditoria SSH amb la nostra aplicació?</h2>
+
+<p>Molt fàcil, anirem al menú principal, i escollirem l'<strong>opció 3</strong>.</p>
+
+<p><img src="https://user-images.githubusercontent.com/80519737/169099657-16579727-91c8-4f0e-8d83-b90aa7c2d63d.png" alt="image" /></p>
+
+<h2>Com utilitzar l'eina?</h2>
+
+<h3>Opció 1: Auditoria completa</h3>
+
+<p>El funcionament del programa és molt senzill, simplement escollim l'opció, que volem provar en aquest cas, l'<strong>auditoria completa</strong> i podrem veure els resultats tal i com es mostra a la imatge.</p>
+
+<p><img src="https://user-images.githubusercontent.com/92753159/169493068-a379f002-1cc5-47c4-bf17-772c1bd32291.png" alt="auditoria_completa" /></p>
+
+<p>Al tenir el bot de Telegram configurat, podem veure que ens enviar un fitxer .txt amb els resultats obtinguts.</p>
+
+<p><img src="https://user-images.githubusercontent.com/80519737/169101033-f7c8d78d-e00e-4ef3-8a60-a131ac03034f.png" alt="resultat_telegram" /></p>
+
+<h3>Opció 2: Auditoria 'FAILS'</h3>
+
+<p>Si escollim la segona opció només ens mostrarà els <strong>fails (errors)</strong>.</p>
+
+<p><img src="https://user-images.githubusercontent.com/56296299/169371666-b5fb1aac-c91b-4027-ae97-3dab48e0a0ae.png" alt="fails" /></p>
+
+<p>Igual que al punt anterior s'enviaran els resultats al bot del Telegram.</p>
+
+<p><img src="https://user-images.githubusercontent.com/56296299/169372643-5fdf6ae4-cf39-4256-a86a-cbb5647f8f6f.png" alt="tele_fails" /></p>
+
+<h3>Opció 3: Auditoria 'WARNS'</h3>
+
+<p>Si escollim la tercera opció només ens mostrarà els <strong>warns (warnings)</strong>.</p>
+
+<p><img src="https://user-images.githubusercontent.com/56296299/169371728-99a95d8b-b23f-4f21-8348-fe861d69c21e.png" alt="warns" /></p>
+
+<p>I enviarà els resultats al bot del Telegram.</p>
+
+<p><img src="https://user-images.githubusercontent.com/56296299/169372701-c986d8b6-e583-491a-afc3-c626465febb7.png" alt="tele_warns" /></p>
+
+<h3>Opció 4: Auditoria 'INFO'</h3>
+
+<p>L'última opció ens mostrarà <strong>informació (info)</strong> dels serveis, algoritmes...</p>
+
+<p><img src="https://user-images.githubusercontent.com/56296299/169371795-30acbda3-7736-4302-9bc6-db0806ba9e94.png" alt="info" /></p>
+
+<p>També, ens arribaran els resultats al bot de Telegram.</p>
+
+<p><img src="https://user-images.githubusercontent.com/56296299/169372661-f8e360b1-8379-4bf5-bc02-1651340800b4.png" alt="tele_info" /></p>
+        </div>
+    </div>
+</section>
+        </main>
+
+        <script src="/assets/build/js/main.js?id=860fc1ee8388d4ac35b6"></script>
+
+        <script>
+    const navMenu = {
+        toggle() {
+            const menu = document.getElementById('js-nav-menu');
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('lg:block');
+            document.getElementById('js-nav-menu-hide').classList.toggle('hidden');
+            document.getElementById('js-nav-menu-show').classList.toggle('hidden');
+        },
+    }
+</script>
+
+        <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
+            <ul class="flex flex-col md:flex-row justify-center">
+                <li class="md:mr-2">
+                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> 2022.
+                </li>
+
+                <li>
+                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
+                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
